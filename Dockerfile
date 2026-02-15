@@ -1,6 +1,5 @@
 # Use specific digest to ensure exact version (FRESH BUILD - Just pushed!)
-FROM mrwasi/wasimdv7@sha256:4c0e06bfe4c36201d778420b85f063e3afe88a3594e7278461a2b6d116880de8
-
+FROM mrwasi/wasimdv7:latest
 # Image metadata - UPDATED VERSION
 ENV IMAGE_VERSION=7.0.1
 ENV BUILD_DATE=2024-02-10
