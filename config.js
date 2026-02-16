@@ -10,17 +10,17 @@
 module.exports = {
     // Bot Information - basic stuff
     botInfo: {
-        name: process.env.BOT_NAME || 'WASI-MD V7',
+        name: process.env.BOT_NAME || 'CHASTE ASSISTEN',
         version: '7.2.0', // current version
-        author: 'ITXXWASI',
-        description: 'Advanced WhatsApp Multi-Device Bot',
-        website: 'https://wasi-tech.com'
+        author: 'CHASTE COMPANY',
+        description: 'Chaste Official Bot WhatsApp',
+        website: 'https://chasteofficial.vercel.app'
     },
     
     // Owner Configuration - thats me lol
     owner: {
-        number: process.env.OWNER_NUMBER || '923001234567',
-        name: process.env.OWNER_NAME || 'WASI',
+        number: process.env.OWNER_NUMBER || '6285363155850',
+        name: process.env.OWNER_NAME || 'Levin',
         isVerified: true // owner is always verified
     },
     
@@ -50,7 +50,7 @@ module.exports = {
     database: {
         type: process.env.DB_TYPE || 'mongodb',
         url: process.env.MONGO_URI || process.env.DATABASE_URL,
-        name: 'wasimd_v7',
+        name: 'CHASTE V2',
         options: {
             useNewUrlParser: true,
             useUnifiedTopology: true,
